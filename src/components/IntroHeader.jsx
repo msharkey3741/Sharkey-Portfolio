@@ -10,14 +10,18 @@ const TopHeader = () => {
     return (
       <div className="mobileTop">
         <h1 className="topText">Matt Sharkey's</h1>
-        <hr />
-        <h3 className="topText">See my work below, Send a message</h3>
       </div>
     );
   } else {
     return (
       <div className="topHead">
-        <h1 className="topText">Matt Sharkey's Portfolio</h1>
+        <h1 className="topText">
+          Matt Sharkey's Portfolio
+          <hr />
+          <span>
+            <h2> Full Stack Developer</h2>
+          </span>
+        </h1>
       </div>
     );
   }

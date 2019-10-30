@@ -3,11 +3,12 @@
   background: url(https://media.giphy.com/media/xT9IgN8YKRhByRBzMI/giphy.gif)
     no-repeat center center fixed;
   background-size: cover;
+  background-color: #272525;
 }
 .topText {
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 37%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -17,4 +18,36 @@
 .topHead {
   width: 100%;
   height: 1000px;
+}
+
+body {
+  background: url("coding.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-color: #272525;
+}
+.submitbtn {
+  float: right;
+}
+.card {
+  background-color: black;
+}
+.skills {
+  background-size: cover;
+  background-color: #272525;
+  padding-bottom: 35px;
+}
+.about {
+  background: url("c130.jpg") no-repeat center center;
+  background-size: cover;
+  background-color: #272525;
+  height: 800px;
+  text-align: center;
+}
+.aboutText {
+  padding: 50px;
+}
+.topButton {
+  background-color: black;
+  color: white;
+  text-align: center;
 }
